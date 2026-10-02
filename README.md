@@ -16,17 +16,13 @@ developed and compared through automated simulations and runtime measurements.
 
 ## Features
 
-- Configurable Connect Four board sizes
-- Human vs. Human gameplay
-- Human vs. Computer gameplay
-- Computer vs. Computer simulation
+- Configurable board sizes
+- Human and computer-controlled players
 - Multiple computer move-selection algorithms
-- Win and block detection
-- Directional chain analysis
-- Weighted move scoring
-- Opponent-threat evaluation
-- Automated performance benchmarking
-- Runtime and win-rate statistics
+- Win, block, and directional-chain evaluation
+- Weighted move scoring and opponent-threat evaluation
+- Automated Computer vs. Computer simulation
+- Runtime and win-rate performance measurements
 
 ## Algorithm Design
 
@@ -70,23 +66,11 @@ boards, where the additional decision-making overhead could offset the
 runtime savings. The optimized approach became increasingly advantageous
 as board size increased.
 
-## What I Learned
+## Project Takeaways
 
-This project provided experience with:
+This project gave me experience designing and comparing algorithms in C, benchmarking program performance, and testing larger programs with multiple implementations of the same functionality.
 
-- Algorithm design and optimization in C
-- Evaluating time-complexity and scalability
-- Designing heuristic decision-making logic
-- Testing and debugging larger programs
-- Measuring program performance
-- Comparing computational efficiency with solution quality
-- Structuring a program to support multiple implementations of the same
-  functionality
-
-One of the most valuable parts of the project was seeing that a faster
-algorithm is not necessarily a better algorithm if optimization reduces the
-quality of its decisions. Refining the computer player required balancing
-runtime performance with effective move selection.
+One of the more interesting parts of the project was finding that a faster algorithm was not necessarily better if the optimization reduced the quality of its decisions. Refining the computer player required balancing runtime performance with effective move selection.
 
 ## Technologies
 
