@@ -72,12 +72,9 @@ This project gave me experience designing and comparing algorithms in C, benchma
 
 One of the more interesting parts of the project was finding that a faster algorithm was not necessarily better if the optimization reduced the quality of its decisions. Refining the computer player required balancing runtime performance with effective move selection.
 
-## Technologies
+## Technologies & Skills
 
-- C
-- Command-line / terminal interface
-- Runtime performance measurement
-- Automated simulation and testing
+`C` `Algorithms` `Game-State Evaluation` `Heuristic Algorithms` `Performance Optimization` `Runtime Benchmarking` `Automated Testing`
 
 ## Source Code
 
